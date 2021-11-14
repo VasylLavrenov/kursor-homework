@@ -93,7 +93,8 @@ color: #4AD295;
  flex: none;
  order: 1;
  flex-grow: 0;
- margin: 0px 10px;     
+ margin: 0px 10px; 
+ border: none;    
 }
 .box1_button_text{
  font-family: "Inter", sans-serif;
@@ -247,7 +248,7 @@ margin: 0px 10px;
 .box3_text span{
      color: red;
 }
-.box3_button{
+.box3_button1{
      display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -260,19 +261,15 @@ left: 419px;
 top: 22px;
 background: rgba(13, 12, 34, 0.05);
 border-radius: 8px;
-
+border: none;
 }
-.box3_button_text{
+.box3_button1_text{
      position: static;
 width: 43px;
 height: 20px;
 left: 10px;
 top: 4px;
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 20px;
+
 color: #0D0C22;
 }
 .box3_button2{
@@ -292,6 +289,7 @@ flex: none;
 order: 2;
 flex-grow: 0;
 margin: 0px 10px;
+border: none;
 }
 .box3_button2_text{
      position: static;
@@ -359,6 +357,7 @@ margin: 0px 10px;
      order: 1;
      flex-grow: 0;
      margin: 0px 10px;
+     border: none;
 }
 .box4_button_text{
      position: static;
@@ -462,6 +461,7 @@ margin: 24px 0px;
      order: 1;
      flex-grow: 0;
      margin: 0px 8px;
+     border: none;
 }
 .box_text3{
      position: static;
@@ -574,6 +574,7 @@ flex: none;
 order: 0;
 flex-grow: 1;
 margin: 0px 8px;
+border: none;
 }
 .box6_text3{
      position: static;
@@ -611,6 +612,7 @@ flex: none;
 order: 1;
 flex-grow: 1;
 margin: 0px 8px;
+border: none;
 }
 .box6_text4{
      position: static;
@@ -714,6 +716,7 @@ flex: none;
 order: 1;
 flex-grow: 0;
 margin: 32px 0px;
+border: none;
 }
 .box7_text3{
      position: static;
@@ -824,6 +827,7 @@ margin: 32px 0px;
      order: 1;
      flex-grow: 0;
      margin: 0px 8px;
+     border: none;
 }
 .box8_text3{
      position: static;

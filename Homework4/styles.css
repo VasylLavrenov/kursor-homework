@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+ * {
+    box-sizing: border-box;
+    margin: 0;
+}
+.all{
+    position: relative;
+width:100%;
+height: 1480px;
+background: #FFFFFF;
+}
+.header{
+    position: absolute;
+width: 100%;
+height: 500px;
+left: 0px;
+top: 0px;
+background: #ED4C5C;
+}
+.T1-2{
+    position: absolute;
+width: 445px;
+height: 195px;
+left: 165px;
+top: 122px;
+}
+.T1{
+    position: absolute;
+width: 445px;
+height: 107px;
+left: 0px;
+top: 0px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+color: #FFFFFF;
+}
+.T2{
+    position: absolute;
+width: 445px;
+height: 64px;
+left: 0px;
+top: 134px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+color: #FFFFFF;
+}
+.Video{
+    position: absolute;
+width: 445px;
+height: 311px;
+left: 770px;
+top: 94px;
+border-radius: 15px;
+}
+ .App{
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;    
+ } 
+ .f1{
+    position: absolute;
+    left:0 ;
+    right: 9.38%;
+    top: 0%;
+    bottom: 37.42%; 
+    background: #FFFFFF;
+ }
+ .f2{
+    position: absolute;
+    left: 41.25%;
+    top: 6.25%;
+    bottom: 6.25%; 
+ }
+ .f3{
+    position: absolute;
+   right: 0%;
+    top: 14%;
+    bottom: 0%;  
+ } 
+ .Main{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+    
+    background:white;
+ }
+ .Main-t1-2{
+    position: absolute;
+    width: 445px;
+    height: 160px;
+    left: 176px;
+    top: 117px;
+ } 
+ .Main-t1{
+    position: absolute;
+    width: 445px;
+    height: 107px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #000000;   
+ }
+ .Main-t2{
+    position: absolute;
+width: 434px;
+height: 64px;
+left: 0px;
+top:110px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+text-align: justify;
+color: #000000;
+ }
+ .Name{
+    position: absolute;
+    width: 540px;
+    height: 305px;
+    left: 800px;
+    top: 112px;
+ }
+ .input, select[
+    position: absolute;
+    width: 78px;
+    height: 19px;
+    left: 766px;
+    top: 638px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(19, 39, 67, 0.5);
+    
+    border-radius: 6px;
+ ]
+ .flex{
+    width: 540px;
+    display: flex;
+    justify-content: space-between
+   
+ }
+ .from-input{
+     width: 267px;
+     height: 40px;
+     border: 1px solid #333333;
+box-sizing: border-box;
+border-radius: 6px;
+ }
+ .from-select{
+    width: 540px;
+    height: 40px;
+    left: 735px;
+    top: 701px;
+    
+    /* Gray 1 */
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 25px;
+ }
+ .btn{
+    width: 267px;
+    height: 40px;
+    border: 1px solid #ED4C5C;
+box-sizing: border-box;
+border-radius: 6px;
+background: #ED4C5d;
+color: white;
+margin-top: 25px;
+ }
+ .Footer{
+    position: absolute;
+width: 100%;
+height: 435px;
+left: 0px;
+top: 500px;
+
+background: #FAFAFA;
+ }
