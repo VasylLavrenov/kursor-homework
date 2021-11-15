@@ -240,8 +240,8 @@ color: #101010;
    position: absolute;
    width: 67px;
    height: 22px;
-   left: 450px;
-   top: 1130px;
+   left: 0px;
+   top: 0px;
    font-family: Lato;
    font-style: normal;
    font-weight: bold;
@@ -344,12 +344,12 @@ left: 1022px;
 top: 0px;
 margin-top: 85px;
 }
-.box4-t3{
+.box4-t4{
    position: absolute;
 width: 96px;
 height: 22px;
-left: 1022px;
-top: 1130px;
+left: 0px;
+top: 0px;
 font-family: Lato;
 font-style: normal;
 font-weight: bold;
