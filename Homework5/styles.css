@@ -30,7 +30,7 @@ table{
     border: 1px solid #525252;
     text-align: left;
     padding: 16px 24px;
-    width: 10%;
+    width: 30%;
 
 }
 .td-w{
@@ -57,13 +57,10 @@ table{
     margin-bottom: -1px;
 }
 .search{
-  position: absolute;
     width: 225px;
     height:38px;  
     padding-left: 15px;
     color:  rgb(196, 193, 193);
    background-color:rgb(90, 89, 89);
    border-radius: 4px;
-  left: 970px;
-  top: 600px;
 }
