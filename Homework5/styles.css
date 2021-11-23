@@ -31,6 +31,8 @@ table{
     text-align: left;
     padding: 16px 24px;
     width: 30%;
+    border-right: none;
+border-left: none;
 
 }
 .td-w{
