@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
 body{
     box-sizing: border-box;
     margin: 0;
@@ -13,12 +14,17 @@ body{
 .wrapper{
     display: flex;
     flex-direction: column;
-width: 1440px;
-height: 100%;
+    
+    
+}
+@media screen and (max-width: 720px) {
+    .wrapper{
+       
+    }
 }
 .box1{
     width: 100%;
-   height: 665px;
+      
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,18 +33,26 @@ height: 100%;
 .b1-tt{
     display: flex;
     flex-direction: column;
-    width: 546px;
-    height: 96px;
-    margin: 40px 80px;
-}   
-.logo{
-    width: 99px;
-height: 32px;
-margin-bottom: 100px;
+   
+    margin: 40px 80px;}
+
+    @media screen and (max-width: 720px){
+        .b1-tt{
+       align-items: center;
+        }
+    }
+  
+.logo-t{
+   
+    font-family: Product Sans;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    
+    color: #5282F0;
 }
 .b1-t1{
-    width: 546px;
-height: 96px;
+ 
 font-weight: bold;
 font-size: 36px;
 line-height: 48px;
@@ -49,15 +63,14 @@ color: #333333;
 margin-bottom: 30px;
 }
 .b1-t2{
-    width: 453px;
-height: 52px;
+   
 font-size: 18px;
 line-height: 26px;
 margin-bottom: 30px;
 color: #4F4F4F;
 }
 .b1-store{
-    width: 340px;
+    width: 330px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -74,21 +87,25 @@ display: grid;
     .box2{
         display: flex;
         flex-direction: column;
-        height: 860px;
+        height:900px;
+       
     }
 }
 .b2-1{
     background: url(images/Ronaldo.png);
    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 @media screen and (max-width: 720px){
    .b2-1 {
        order:2;
-       /* background: url(images/Ronaldo2.png); */
+       
 }
 }
 .match{
-    position: absolute;
+   position: absolute;
 width: 360px;
 height: 218.06px;
 left: 163px;
@@ -102,8 +119,7 @@ z-index: 2;
 }
 @media screen and (max-width: 720px){
 .match{
-   left: 500px; 
-   top: 415px;
+  position: static;
 }
 }
 .ars1{
@@ -210,9 +226,9 @@ border-radius: 4px;
 }
 @media screen and (max-width: 720px){
     .football{
-        left: 600px;
-        top: 600px;
+      display: flex;
         background: url(images/Ronaldo.png);
+        position: static;
     }
 }
 .b2-2{
@@ -230,33 +246,45 @@ border-radius: 4px;
     display: flex;
     flex-direction: column;
 }
+@media screen and (max-width: 720px){
+    .b2-tt2{
+        align-items: center;
+    }
+}
+
 .b22-t1{
-    width: 582px;
-height: 22px;
+  
 font-weight: bold;
 font-size: 16px;
 line-height: 21px;
 color: #00ADEE;
 }
 .b22-t2{
-width: 426px;
-height: 37px;
+
 font-weight:bold;
 font-size:28px;
 line-height:37px;
 color: #333333;
 }
+@media screen and (max-width: 720px){
+    .b22-t2{
+        width: 320px;
+    }
+}
 .b22-t3{
-    width: 407px;
-height: 185px;
+  
 font-weight: normal;
 font-size: 16px;
 line-height: 23px;
 color: #4F4F4F;
 }
+@media screen and (max-width: 720px){
+    .b22-t3{
+        width: 320px;
+    }
+}
 .b22-t4{
-    width: 582px;
-height: 22px;
+   
 font-weight: bold;
 font-size: 16px;
 line-height: 21px;
@@ -264,54 +292,60 @@ color: #00ADEE;
 }
 .box3{
     width: 100%;
-    height: 716px;
+   
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-/* background: url(images/img3.png); */
+     background: url(images/img3.png);
 }
 @media screen and (max-width: 720px){
     .box3{
         flex-direction: column;
-        height: 1080px;
+       justify-content: center;
+       align-items: center;
     }
 }
 .b3-tt{
     display: flex;
     flex-direction: column;
     margin-left: 80px;
+    align-items: center;
 }
 .b3-t1{
- width: 118px;
-height: 22px;
+ 
 font-weight: bold;
 font-size: 16px;
 line-height: 21px;
 color: #00ADEE;
 }
 .b3-t2{
-width: 297px;
-height: 37px;
+
 font-weight: bold;
 font-size: 28px;
 line-height: 37px;
 color: #333333;
 }
 .b3-t3{
-width: 480px;
-height: 139px;
+
 font-size: 16px;
 line-height: 23px;
 color: #4F4F4F;
 }
 .b3-t4{
-width: 582px;
-height: 22px;
+
 font-weight: bold;
 font-size: 16px;
 line-height: 21px;
 color: #00ADEE;
+}
+@media screen and (max-width: 720px){
+.img3a{
+    max-width: 100%;
+}
+.b3-tt{
+    margin: 0;
+}
 }
 .box4{
     background: url(images/back1.png);
@@ -341,10 +375,11 @@ text-align: center;
 @media screen and (max-width: 720px){
     .box4{
         background: #FAFAFA;
-        height: 1775px;
+        height: 1500px;
+        padding: 0;
     }
     .features{
-height: 74px;
+
 font-weight: bold;
 font-size: 28px;
 line-height: 37px;
@@ -591,6 +626,11 @@ color: #4F4F4F;
     right: -35px;
     top: 50px;
 }
+@media screen and (max-width: 720px){
+    .img4{
+
+    }
+}
 .box6{
     width: 100%;
 height: 278px;
@@ -632,9 +672,8 @@ color: #333333;
 margin-top: 20px;
 }
 .box7{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 .b7-tt{
@@ -652,8 +691,7 @@ line-height: 37px;
 color: #333333;
 }
 .b7-t2{
-width: 535px;
-height: 125px;
+
 font-size: 16px;
 line-height: 25px;
 color: #4F4F4F;
@@ -662,13 +700,22 @@ color: #4F4F4F;
     .box7{
         display: flex;
         flex-direction: column;
-        height: 830px;
+      
     }
     .img6{
         order: 2;
+        max-width: 100%;
     }
     .b7-tt{
         order: 1;
+  align-items: center;
+  height: 450px;
+    }
+    .b7-t2{
+        width: 309.03px;
+    }
+    .b7-t1{
+        width: 320px;
     }
 }
 .box8{
@@ -743,7 +790,7 @@ color: #FFFFFF;
 }
 @media screen and (max-width: 720px)  {
     .box1{
-      width: 100%;
+      
       justify-content: center;
     }
     .img1{
@@ -759,8 +806,10 @@ color: #FFFFFF;
     }
     .b82{
         order: 3;
+        justify-content: space-around;
     }
     .b83{
         order: 2;
     }
 }
+
