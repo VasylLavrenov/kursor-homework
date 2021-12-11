@@ -8,6 +8,9 @@ a{
 text-decoration: none;
 color: inherit;
 }
+button{
+  border: none;
+}
 .orange-button{
  width: 125px;
 height: 25px;
@@ -36,6 +39,7 @@ font-family: Montserrat;
 font-style: normal;
 margin: 0 auto;
 padding: 20px 80px;
+width: 1440px;
 }
 .Wrr{
 display: flex;
@@ -51,7 +55,7 @@ top: 0;
  right: 0;
 background: #2b7af1;
 border-radius: 0px 0px 0px 10px;
-width: 750px;
+width: 50%;
 height: 810px;    
   }
 .nav{
@@ -530,6 +534,7 @@ flex-direction: column;
 align-items: flex-start;
 position: relative;
  margin-bottom: 40px;
+ width: 1440px;
 }
 .r1-t1{
  width: 357px;
@@ -577,7 +582,7 @@ top: 330px;
 .arrow2{
  z-index: 1;  
 position: absolute;
-right: 125px;
+right:45px;
 top: 330px; 
 }
 .slider{
@@ -608,6 +613,7 @@ grid-area: p;
 display: flex;
 flex-direction: column;
 grid-area: tt;
+justify-content: space-between;
 }
 .rc1-t3{
 font-family: Montserrat;
@@ -643,6 +649,13 @@ margin-left: 240px;
 display: flex;
 flex-direction: column;
  align-items: center;
+ justify-content: center
+ ;
+ background: #FFFFFF;
+border-radius: 10px;
+width: 393px;
+height: 451px;
+filter: drop-shadow(0px -5px 20px rgba(41, 41, 42, 0.2));
 }
 .w1-t{
 width: 290px;
@@ -653,6 +666,7 @@ font-style: normal;
  font-size: 36px;
  line-height: 44px;
 color: #2B7AF1;  
+margin-bottom: 20px;
 }
 .form{
 display: flex;
@@ -741,7 +755,7 @@ top: -20px;
 }
 .footer{
  position: absolute;
-width: 100%;
+width: 1440px;
 height: 557px;
 left: 0px;
 top: 3460px;
