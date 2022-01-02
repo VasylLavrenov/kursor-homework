@@ -249,7 +249,7 @@ b {
 .btn-call {
     background-color: #333;
     color: #fff;
-    width: 130px;
+    width: 131px;
     height: 30px;
 }
 
@@ -555,8 +555,14 @@ button {
 
 .reviews {
     position: relative;
+   
 }
-
+.carousel-item {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
 .reviews .arrow-left, .reviews .arrow-right {
     position: absolute;
     top: 50%;
@@ -573,13 +579,13 @@ button {
     left: 50px;
 }
 
-.reviews .review-slider {
+.reviews .carousel-inner {
     width: 90%;
     max-width: 900px;
     margin: 50px auto;
 }
 
-.reviews .review-text {
+.reviews .carousel-text {
     display: inline-block;
     width: calc(70% - 15px);
     margin-left: 15px;
@@ -647,9 +653,9 @@ button {
     display: inline-block;
 }
 
-.delivery .left-block {
+/* .delivery .left-block {
     margin-right: 95px;
-}
+} */
 
 .advantages {
     text-align: center;
