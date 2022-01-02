@@ -20,9 +20,10 @@ window.onload = function () {
       })
   })
 
-  $('.single-item').slick(); 
+  $('.carousel-item').slick();
+          
 
-  var tag = document.createElement('script');
+ 
 
   tag.src = "https://www.youtube.com/iframe_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];

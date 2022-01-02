@@ -563,6 +563,8 @@ button {
     flex-wrap: wrap;
     justify-content: flex-end;
 }
+
+
 .reviews .arrow-left, .reviews .arrow-right {
     position: absolute;
     top: 50%;
@@ -585,16 +587,16 @@ button {
     margin: 50px auto;
 }
 
-.reviews .carousel-text {
+.reviews .review-text {
     display: inline-block;
-    width: calc(70% - 15px);
+    width: calc(17% - 15px);
     margin-left: 15px;
     line-height: 24px;
     vertical-align: top;
 }
 
 .reviews .main-review-img {
-    width: calc(30% - 15px);
+    width: calc(7% - 15px);
     margin-right: 10px;
     border: 5px solid #ffdc00;
     vertical-align: top;
@@ -604,7 +606,7 @@ button {
 
 .reviews .review-author {
     display: block;
-    text-align: right;
+    
     margin: 10px 0 auto 0;
     vertical-align: top;
     padding-top: 15px;
