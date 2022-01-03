@@ -1,0 +1,68 @@
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+    .Smallbutton_sky{
+     @include flex-column;
+     margin-left: 10px;
+    }
+      .Smallbutton-sky  {
+             width: 111px;
+             height: 36px;
+             background: #FFFFFF;
+             border: 1px solid #18A0FB;
+             box-sizing: border-box;
+             color: #18A0FB;
+             border-radius: 5px;
+             margin-bottom: 10px;
+         }
+         .text-sky{
+                    line-height: 18px;
+                    text-align: center;
+                    color: #2C2C2C;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin: 0px 10px;
+                  
+              }
+.Smallbutton-sky_right{
+     width: 111px;
+     height: 36px;
+     background: #FFFFFF;
+     border: 1px solid #18A0FB;
+     box-sizing: border-box;
+     color: #18A0FB;
+     border-radius: 5px;
+     @include row-around;
+     margin-bottom: 10px;
+}
+.Smallbutton-sky_left {
+     width: 111px;
+     height: 36px;
+     background: #FFFFFF;
+     border: 1px solid #18A0FB;
+     box-sizing: border-box;
+     color: #18A0FB;
+     border-radius: 5px;
+     @include row-around;
+     margin-bottom: 10px;
+}

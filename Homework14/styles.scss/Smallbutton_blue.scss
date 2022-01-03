@@ -1,0 +1,60 @@
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.Smallbuttons{
+    @include flex-row;
+    margin: 0
+}
+    .Smallbutton_blue{
+     @include flex-column;
+    }
+      .Smallbutton-blue  {
+             width: 111px;
+             height: 36px;
+             background: #18A0FB;
+             border-radius: 5px;
+             margin-bottom: 10px;
+         }
+         .text-blue{
+                    line-height: 18px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin: 0px 10px;
+                  
+              }
+.Smallbutton-blue_right{
+     width: 111px;
+     height: 36px;
+     background: #18A0FB;
+     border-radius: 5px;
+     @include row-around;
+     margin-bottom: 10px;
+}
+.Smallbutton-blue_left {
+     width: 111px;
+     height: 36px;
+     background: #FF3E1D;;
+     border-radius: 5px;
+     @include row-around;
+     margin-bottom: 10px;
+}

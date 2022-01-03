@@ -89,7 +89,7 @@
     height: 65px;
     background: url("../img/css_sprites.png") -240px -10px;
     position: absolute;
-    left: 18%;
+    left: 13%;
     bottom: 36%;
     cursor: pointer;
   }
@@ -99,7 +99,7 @@
     height: 65px;
     background: url("../img/css_sprites.png") -240px -90px;
     position: absolute;
-    right: 18%;
+    right: 13%;
     bottom: 36%;
     cursor: pointer;
   }

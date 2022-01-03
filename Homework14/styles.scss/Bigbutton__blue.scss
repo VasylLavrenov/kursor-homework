@@ -1,0 +1,60 @@
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin row-around {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.Bigbuttons{
+    @include flex-row;
+    margin: 0
+}
+    .Bigbutton_blue{
+     @include flex-column;
+    }
+      .button-blue  {
+             width: 144px;
+             height: 46px;
+             background: #18A0FB;
+             border-radius: 5px;
+             margin-bottom: 10px;
+         }
+         .text-blue{
+                    line-height: 18px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin: 0px 10px;
+                  
+              }
+.button-blue_right{
+    width: 144px;
+     height: 46px;
+     background: #18A0FB;
+     border-radius: 5px;
+     @include row-around;
+     margin-bottom: 10px;
+}
+.button-blue_left {
+     width: 144px;
+     height: 46px;
+     background: #18A0FB;
+     border-radius: 5px;
+     @include row-around;
+     margin-bottom: 10px;
+}
