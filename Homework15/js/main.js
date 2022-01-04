@@ -20,7 +20,7 @@ window.onload = function () {
       })
   })
 
-//   $('.carousel-item').slick();
+  $('.carousel-item').slick();
           
 
  
