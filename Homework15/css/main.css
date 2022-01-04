@@ -589,14 +589,14 @@ button {
 
 .reviews .review-text {
     display: inline-block;
-    width: calc(17% - 15px);
+    max-width: 65%;
     margin-left: 15px;
     line-height: 24px;
     vertical-align: top;
 }
 
 .reviews .main-review-img {
-    width: calc(7% - 15px);
+    max-width: 30%;
     margin-right: 10px;
     border: 5px solid #ffdc00;
     vertical-align: top;
@@ -654,24 +654,6 @@ button {
     vertical-align: top;
     display: inline-block;
 }
-
-/* .delivery .left-block {
-    margin-right: 95px;
-} */
-
-.advantages {
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    clear: both;
-}
-
 .advantages .adv-title {
     margin-top: 15px;
     font-family: "HelveticaNeueBold";
@@ -732,4 +714,32 @@ footer {
     margin-top: 100px;
     background-color: #333;
     height: 50px;
+}
+@media screen and (max-width: 720px){
+     .wrapper{
+        width: 100%;
+    }
+
+}
+@media (max-width: 1160px){
+    .carousel-item  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reviews .review-text{
+        max-width: 50%;
+        width: 300px;
+        text-align: center;
+    }
+    .reviews .main-review-img {
+       display: none;
+    }
+    .slick-initialized .slick-slide {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
