@@ -715,12 +715,6 @@ footer {
     background-color: #333;
     height: 50px;
 }
-@media screen and (max-width: 720px){
-     .wrapper{
-        width: 100%;
-    }
-
-}
 @media (max-width: 1160px){
     .carousel-item  {
         display: flex;
@@ -728,14 +722,17 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .reviews .review-text{
         max-width: 50%;
         width: 300px;
         text-align: center;
     }
+
     .reviews .main-review-img {
        display: none;
     }
+
     .slick-initialized .slick-slide {
         display:flex;
         flex-direction: column;
